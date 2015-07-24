@@ -55,7 +55,7 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-        botName: "PoyBot",
+        botName: "HydronBot",
         language: "english",
         startupCap: 1, // 1-200
         startupVolume: 0, // 0-100
@@ -81,7 +81,7 @@
         usercommandsEnabled: true,
         lockskipPosition: 3,
         lockskipReasons: [
-            ["theme", "This song does not fit the room theme. "],
+            ["theme", "This song does not fit the room theme, EDM. "],
             ["op", "This song is on the overplayed list. "],
             ["history", "This song is in the history. "],
             ["mix", "You played a mix, which is against the rules. "],
